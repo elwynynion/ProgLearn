@@ -1,0 +1,276 @@
+// Programmer
+            const SizedBox(height: 20),
+
+            const Text(
+              'Programmer',
+              style: TextStyle(
+                  fontFamily: 'SFdisplay',
+                  color: Color.fromRGBO(29, 29, 31, 1),
+                  fontWeight: FontWeight.w500,
+                  fontSize: 17.0),
+            ),
+
+            const SizedBox(height: 6.0),
+
+            ListTile(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(10),
+              ),
+              title: const Text(
+                'Elwyn Ynion',
+                style: TextStyle(
+                  fontFamily: 'SFdisplay',
+                  color: Color.fromRGBO(29, 29, 31, 1),
+                  fontSize: 16.0,
+                  fontWeight: FontWeight.w400,
+                ),
+              ),
+              leading: const CircleAvatar(
+                backgroundImage: AssetImage('assets/team/elwyn-min.png'),
+              ),
+              onTap: () {},
+            ),
+
+            // Designer
+            const SizedBox(height: 20.0),
+
+            const Text(
+              'Designer',
+              style: TextStyle(
+                  fontFamily: 'SFdisplay',
+                  color: Color.fromRGBO(29, 29, 31, 1),
+                  fontWeight: FontWeight.w500,
+                  fontSize: 17.0),
+            ),
+
+            const SizedBox(height: 6.0),
+
+            ListTile(
+              horizontalTitleGap: 16.0,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(10),
+              ),
+              title: const Text(
+                'Joanah Blanco',
+                style: TextStyle(
+                  fontFamily: 'SFdisplay',
+                  color: Color.fromRGBO(29, 29, 31, 1),
+                  fontSize: 16.0,
+                  fontWeight: FontWeight.w400,
+                ),
+              ),
+              leading: const CircleAvatar(
+                backgroundImage: AssetImage('assets/team/blanco-min.png'),
+              ),
+              onTap: () {},
+            ),
+
+            // Researcher
+            const SizedBox(height: 20.0),
+
+            const Text(
+              'Researcher',
+              style: TextStyle(
+                  fontFamily: 'SFdisplay',
+                  color: Color.fromRGBO(29, 29, 31, 1),
+                  fontWeight: FontWeight.w500,
+                  fontSize: 17.0),
+            ),
+
+            const SizedBox(height: 6.0),
+
+            ListTile(
+              horizontalTitleGap: 16.0,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(10),
+              ),
+              title: const Text(
+                'Alyssa Basiño',
+                style: TextStyle(
+                  fontFamily: 'SFdisplay',
+                  color: Color.fromRGBO(29, 29, 31, 1),
+                  fontSize: 16.0,
+                  fontWeight: FontWeight.w400,
+                ),
+              ),
+              leading: const CircleAvatar(
+                backgroundImage: AssetImage('assets/team/basino-min.png'),
+              ),
+              onTap: () {},
+            ),
+
+            const SizedBox(height: 6.0),
+
+            ListTile(
+              horizontalTitleGap: 16.0,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(10),
+              ),
+              title: const Text(
+                'Beronica Bayot',
+                style: TextStyle(
+                  fontFamily: 'SFdisplay',
+                  color: Color.fromRGBO(29, 29, 31, 1),
+                  fontSize: 16.0,
+                  fontWeight: FontWeight.w400,
+                ),
+              ),
+              leading: const CircleAvatar(
+                backgroundImage: AssetImage('assets/team/bayot-min.png'),
+              ),
+              onTap: () {},
+            ),
+
+            const SizedBox(height: 6.0),
+
+            ListTile(
+              horizontalTitleGap: 16.0,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(10),
+              ),
+              title: const Text(
+                'Angelique Sison',
+                style: TextStyle(
+                  fontFamily: 'SFdisplay',
+                  color: Color.fromRGBO(29, 29, 31, 1),
+                  fontSize: 16.0,
+                  fontWeight: FontWeight.w400,
+                ),
+              ),
+              leading: const CircleAvatar(
+                backgroundImage: AssetImage('assets/team/sison-min.png'),
+              ),
+              onTap: () {},
+            ),
+
+            const SizedBox(height: 6.0),
+
+            ListTile(
+              horizontalTitleGap: 16.0,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(10),
+              ),
+              title: const Text(
+                'Ronie Brioso',
+                style: TextStyle(
+                  fontFamily: 'SFdisplay',
+                  color: Color.fromRGBO(29, 29, 31, 1),
+                  fontSize: 16.0,
+                  fontWeight: FontWeight.w400,
+                ),
+              ),
+              leading: const CircleAvatar(
+                backgroundImage: AssetImage('assets/team/brioso-min.png'),
+              ),
+              onTap: () {},
+            ),
+
+            const SizedBox(height: 6.0),
+
+            ListTile(
+              horizontalTitleGap: 16.0,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(10),
+              ),
+              title: const Text(
+                'Mark Ivan Badua',
+                style: TextStyle(
+                  fontFamily: 'SFdisplay',
+                  color: Color.fromRGBO(29, 29, 31, 1),
+                  fontSize: 16.0,
+                  fontWeight: FontWeight.w400,
+                ),
+              ),
+              leading: const CircleAvatar(
+                backgroundImage: AssetImage('assets/team/badua-min.png'),
+              ),
+              onTap: () {},
+            ),
+
+            const SizedBox(height: 6.0),
+
+            ListTile(
+              horizontalTitleGap: 16.0,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(10),
+              ),
+              title: const Text(
+                'John Rembrandts Ibarrola',
+                style: TextStyle(
+                  fontFamily: 'SFdisplay',
+                  color: Color.fromRGBO(29, 29, 31, 1),
+                  fontSize: 16.0,
+                  fontWeight: FontWeight.w400,
+                ),
+              ),
+              leading: const CircleAvatar(
+                backgroundImage: AssetImage('assets/team/ibarrola-min.png'),
+              ),
+              onTap: () {},
+            ),
+
+            const SizedBox(height: 6.0),
+
+            ListTile(
+              horizontalTitleGap: 16.0,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(10),
+              ),
+              title: const Text(
+                'Ken Pareja',
+                style: TextStyle(
+                  fontFamily: 'SFdisplay',
+                  color: Color.fromRGBO(29, 29, 31, 1),
+                  fontSize: 16.0,
+                  fontWeight: FontWeight.w400,
+                ),
+              ),
+              leading: const CircleAvatar(
+                backgroundImage: AssetImage('assets/team/pareja-min.png'),
+              ),
+              onTap: () {},
+            ),
+
+            const SizedBox(height: 6.0),
+
+            ListTile(
+              horizontalTitleGap: 16.0,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(10),
+              ),
+              title: const Text(
+                'Stephen Von Ramos',
+                style: TextStyle(
+                  fontFamily: 'SFdisplay',
+                  color: Color.fromRGBO(29, 29, 31, 1),
+                  fontSize: 16.0,
+                  fontWeight: FontWeight.w400,
+                ),
+              ),
+              leading: const CircleAvatar(
+                backgroundImage: AssetImage('assets/team/ramos-min.png'),
+              ),
+              onTap: () {},
+            ),
+
+            const SizedBox(height: 6.0),
+
+            ListTile(
+              horizontalTitleGap: 16.0,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(10),
+              ),
+              title: const Text(
+                'Dave Tumampo',
+                style: TextStyle(
+                  fontFamily: 'SFdisplay',
+                  color: Color.fromRGBO(29, 29, 31, 1),
+                  fontSize: 16.0,
+                  fontWeight: FontWeight.w400,
+                ),
+              ),
+              leading: const CircleAvatar(
+                backgroundImage: AssetImage('assets/team/tumampo-min.png'),
+              ),
+              onTap: () {},
+            ),

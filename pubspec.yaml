@@ -1,0 +1,192 @@
+name: proglearn
+description: A Flutter app for learning programming
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 2.0.0+4
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  hexcolor: ^2.0.6
+  hovering: ^1.0.4
+  flutter_markdown: ^0.6.9
+  google_fonts: ^2.2.0
+  flutter_highlighter: ^0.1.1
+  animations: ^2.0.2
+  loadany: ^1.0.0
+  url_launcher: ^6.0.18
+  morpheus: ^1.2.3
+  ionicons: ^0.1.2
+  syntax_highlighter: ^0.1.1
+  introduction_screen: ^3.0.1
+  shared_preferences: ^2.0.13
+  after_layout: ^1.1.0
+  
+dev_dependencies:
+  flutter_native_splash: ^1.3.3
+  flutter_test:
+    sdk: flutter
+    
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^1.0.0
+  
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+
+  assets: 
+    - assets/htmlicon.png
+    - assets/cssicon.png
+    - assets/jsicon.png
+    - assets/appIcon.png
+    - assets/appIconD.png
+    - assets/special.png
+    - assets/trophy.png
+    - assets/developers_illustration.png
+    - assets/documents.png
+    - assets/award.png
+    - assets/snap.png
+    - assets/facebook.png
+    - assets/gmail.png
+    - assets/phone.png
+
+    - assets/brand_official.png
+
+    # Images for developer
+    - assets/team/elwyn-min.png
+    - assets/team/blanco-min.png
+    - assets/team/basino-min.png
+    - assets/team/bayot-min.png
+    - assets/team/sison-min.png
+    - assets/team/tumampo-min.png
+    - assets/team/brioso-min.png
+    - assets/team/ramos-min.png
+    - assets/team/ibarrola-min.png
+    - assets/team/pareja-min.png
+    - assets/team/badua-min.png
+  
+    # Images for cards
+    - assets/covers/html.png
+    - assets/covers/css.png
+    - assets/covers/js.png
+    - assets/covers/welcome.png
+
+    # Images for on_boarding
+    - assets/on_boarding/home.png
+    - assets/on_boarding/quiz.png
+    - assets/on_boarding/settings.png
+
+    # Markdown files
+    - md/html/html1.md
+    - md/html/html2.md
+    - md/html/html3.md
+    - md/html/html4.md
+    - md/html/html5.md
+    - md/html/html6.md
+    - md/html/html7.md
+    - md/html/html8.md
+    - md/html/html9.md
+    - md/html/html10.md 
+
+    - md/css/css1.md
+    - md/css/css2.md
+    - md/css/css3.md
+    - md/css/css4.md
+    - md/css/css5.md
+    - md/css/css6.md
+    - md/css/css7.md
+    - md/css/css8.md
+    - md/css/css9.md
+    - md/css/css10.md
+    - md/css/css11.md
+
+
+
+    - md/js/js1.md
+    - md/js/js2.md
+    - md/js/js3.md
+    - md/js/js4.md
+    - md/js/js5.md
+    - md/js/js6.md
+    - md/js/js7.md
+    - md/js/js8.md
+    - md/js/js9.md
+    - md/js/js10.md
+    - md/js/js11.md
+    - md/js/js12.md
+    
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: SFdisplay
+      fonts:
+        - asset: fonts/SFproDisplay/SF-Pro-Display-Ultralight.otf
+        - asset: fonts/SFproDisplay/SF-Pro-Display-Thin.otf
+        - asset: fonts/SFproDisplay/SF-Pro-Display-Light.otf
+        - asset: fonts/SFproDisplay/SF-Pro-Display-Regular.otf
+        - asset: fonts/SFproDisplay/SF-Pro-Display-Medium.otf
+        - asset: fonts/SFproDisplay/SF-Pro-Display-Semibold.otf
+        - asset: fonts/SFproDisplay/SF-Pro-Display-Bold.otf
+        - asset: fonts/SFproDisplay/SF-Pro-Display-Heavy.otf
+        - asset: fonts/SFproDisplay/SF-Pro-Display-Black.otf
+    - family: SFtext
+      fonts:
+        - asset: fonts/SFproText/SF-Pro-Text-Ultralight.otf
+        - asset: fonts/SFproText/SF-Pro-Text-Thin.otf
+        - asset: fonts/SFproText/SF-Pro-Text-Light.otf
+        - asset: fonts/SFproText/SF-Pro-Text-Regular.otf
+        - asset: fonts/SFproText/SF-Pro-Text-Medium.otf
+        - asset: fonts/SFproText/SF-Pro-Text-Semibold.otf
+        - asset: fonts/SFproText/SF-Pro-Text-Bold.otf
+        - asset: fonts/SFproText/SF-Pro-Text-Heavy.otf
+        - asset: fonts/SFproText/SF-Pro-Text-Black.otf
+          weight: 700
+        
+        
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

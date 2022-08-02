@@ -26,8 +26,11 @@ ProgLearn offers classes in HTML, CSS, and Javascript that users can utilize to 
 
 ## Install
 ```bash
+# Create folder
+$ mkdir proglearn
+
 # Clone this repository
-$ git clone https://github.com/elwynynion/proglearn
+$ git clone https://github.com/elwynynion/proglearn .
 
 # Go into the repository
 $ cd proglearn
